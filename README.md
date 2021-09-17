@@ -1,2 +1,2 @@
-# React-Portfolio
-My React Portfolio
+# ReactJs-Portfolio
+My ReactJs Portfolio
