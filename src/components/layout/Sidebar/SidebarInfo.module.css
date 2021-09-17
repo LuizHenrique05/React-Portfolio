@@ -1,0 +1,22 @@
+.sidebar__infos {
+    padding: 20px;
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid #8c8c8e;
+}
+
+.percent__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+@media (max-width: 1377px) {
+    .percent__container {
+        flex-direction: column;
+        align-items: baseline;
+    }
+}

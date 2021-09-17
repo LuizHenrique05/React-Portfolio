@@ -1,0 +1,29 @@
+.area {
+    overflow: hidden;
+    position: relative;
+}
+
+.row {
+    padding: 40px 0 20px 0;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+
+.left, .right {
+    position: absolute;
+    top: 0;
+}
+
+.left svg, .right svg {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}

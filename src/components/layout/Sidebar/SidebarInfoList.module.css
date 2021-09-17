@@ -1,0 +1,15 @@
+.list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list li {
+    font-size: 15px;
+}
+
+.list li:last-child {
+    color: #8c8c8e;
+}

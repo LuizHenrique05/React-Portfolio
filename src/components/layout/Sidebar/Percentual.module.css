@@ -1,0 +1,68 @@
+.percentage, .percentage svg {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.percentage svg circle {
+    width: 80px;
+    height: 80px;
+    fill: none;
+    stroke-width: 10px;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+    stroke-linecap: round;
+}
+
+.percentage svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+
+.percentage svg circle:nth-child(2) {
+    stroke-dashoffset: calc( 220 - ( 220 * 50 ) / 100 );
+    stroke: #519dff;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8c8c8e;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.text span {
+    display: none;
+}
+
+@media (max-width: 1377px) {
+    .percentage {
+        display: none !important;
+    }
+
+    .text span {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .percentage__div {
+        width: 100%;
+    }
+
+    .text p {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

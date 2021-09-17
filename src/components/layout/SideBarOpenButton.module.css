@@ -1,0 +1,17 @@
+.sidebar_open_btn {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+@media (max-width: 1350px) {
+    .sidebar_open_btn {
+        display: block;
+    }
+}

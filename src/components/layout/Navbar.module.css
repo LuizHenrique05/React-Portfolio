@@ -1,0 +1,46 @@
+.navbar {
+    padding-top: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list li {
+    border-radius: 5px;
+    min-width: 180px;
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    background-color: #252532;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+.list li a:hover {
+    color: #519dff;
+}
+
+@media (max-width: 900px) {
+    .list li {
+        min-width: 20%;
+        min-height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list li {
+        min-width: 150px;
+        margin: 10px;
+    }
+}

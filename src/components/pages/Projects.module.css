@@ -1,0 +1,9 @@
+.project {
+    padding: 15px;
+}
+
+.project > p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

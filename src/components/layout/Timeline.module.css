@@ -1,0 +1,36 @@
+.timeline {
+    margin-top: 15px;
+}
+
+.timeline > div {
+    height: 100px;
+}
+
+.title {
+    font-size: 22px !important;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.title svg {
+    margin-left: 5px;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+}
+
+.description p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+    .timeline {
+        display: none !important;
+    }
+}
