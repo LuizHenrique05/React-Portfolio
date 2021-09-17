@@ -28,3 +28,15 @@
     align-items: baseline;
     flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+    .skill {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 426px) {
+    .skill {
+        padding: 15px 0;
+    }
+}

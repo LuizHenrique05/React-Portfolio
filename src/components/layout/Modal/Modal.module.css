@@ -100,3 +100,47 @@
         width: 90%;
     }
 }
+
+@media (max-width: 480px) {
+    .header p {
+        font-size: 18px;
+    }
+
+    .sub_header ul li {
+        font-size: 14px;
+    }
+
+    .body img {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 426px) {
+    .header p {
+        font-size: 16px;
+    }
+
+    .sub_header ul li {
+        font-size: 12px;
+    }
+
+    .body p {
+        font-size: 13px;
+    }
+
+    .body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body img {
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 322px) {
+    .sub_header ul li {
+        font-size: 11px;
+    }
+}

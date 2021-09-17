@@ -1,12 +1,12 @@
 import React from 'react'
 import en from '../../../img/languages/united-states.png'
 import br from '../../../img/languages/brazil.png'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 
 import styles from './ChangeLanguage.module.css'
 
 export default ({ language }) => {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation()
 
     function handleClick(lang) {
         i18n.changeLanguage(lang)

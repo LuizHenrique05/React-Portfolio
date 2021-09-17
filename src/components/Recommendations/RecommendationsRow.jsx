@@ -7,23 +7,23 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 import styles from './RecommendationsRow.module.css'
 
 export default () => {
-    const [scrollX, setScrollX] = useState(-200);
+    const [scrollX, setScrollX] = useState(-200)
 
     const handleLeftArrow = () => {
-        let x = scrollX + Math.round(window.innerWidth / 2);
+        let x = scrollX + Math.round(window.innerWidth / 2)
         if(x > 0)
-            x = 0;
+            x = 0
 
-        setScrollX(x);
+        setScrollX(x)
     }
 
     const handleRightArrow = () => {
-        let x = scrollX - Math.round((window.innerWidth * 0.6) / 2);
-        let listW = items.length * 300;
+        let x = scrollX - Math.round((window.innerWidth * 0.6) / 2)
+        let listW = items.length * 300
         if(((window.innerWidth * 0.6)- listW) > x)
-            x = ((window.innerWidth * 0.6) - listW);
+            x = ((window.innerWidth * 0.6) - listW)
 
-        setScrollX(x);
+        setScrollX(x)
     }
 
     return (
@@ -36,6 +36,5 @@ export default () => {
                 ))}
             </div>
         </div>
-        
     )
 }

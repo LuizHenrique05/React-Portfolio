@@ -19,3 +19,23 @@
         z-index: 999;
     }
 }
+
+@media (max-width: 480px) {
+    .sidebar {
+        min-height: 800px;
+    }
+}
+
+@media (max-width: 380px) {
+    .sidebar {
+        max-width: 290px;
+        width: 290px;
+    }
+}
+
+@media (max-width: 322px) {
+    .sidebar {
+        max-width: 250px;
+        width: 250px;
+    }
+}

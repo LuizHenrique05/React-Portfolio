@@ -24,3 +24,9 @@
 .articles__list li a svg {
     margin-left: 10px;
 }
+
+@media (max-width: 426px) {
+    .articles__list li a {
+        font-size: 14px;
+    }
+}

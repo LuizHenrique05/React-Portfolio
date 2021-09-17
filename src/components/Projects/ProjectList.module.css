@@ -51,3 +51,27 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .list li div p {
+        font-size: 14px;
+    }
+
+    .list li div button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 426px) {
+    .list li div p {
+        font-size: 12px;
+    }
+
+    .list li div button {
+        font-size: 10px;
+    }
+
+    .list li div img {
+        max-width: 60px;
+    }
+}

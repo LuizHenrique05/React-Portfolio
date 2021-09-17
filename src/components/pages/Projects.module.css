@@ -7,3 +7,10 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+
+@media (max-width: 426px) {
+    .project {
+        padding: 15px 0;
+    }
+}

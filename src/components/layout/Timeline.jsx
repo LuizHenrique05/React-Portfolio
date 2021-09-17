@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import HorizontalTimeline from "react-horizontal-timeline";
+import React, { useState } from "react"
+import HorizontalTimeline from "react-horizontal-timeline"
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa'
 
 import styles from './Timeline.module.css'
@@ -58,5 +58,5 @@ export default () => {
                 </div>
             </div>
         </div>
-      );
+      )
 }

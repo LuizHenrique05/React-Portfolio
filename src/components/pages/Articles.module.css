@@ -8,3 +8,9 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+@media (max-width: 426px) {
+    .articles {
+        padding: 20px 0;
+    }
+}

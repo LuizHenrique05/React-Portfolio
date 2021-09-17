@@ -44,3 +44,16 @@
         margin: 10px;
     }
 }
+
+@media (max-width: 480px) {
+    .list {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .list li {
+        min-width: 100%;
+    }
+}
