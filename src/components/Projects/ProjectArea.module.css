@@ -1,0 +1,7 @@
+.project__area {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.resume {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.resume:hover {
+    color: #519dff;
+}
+
+.resume span {
+    margin-left: 10px;
+}

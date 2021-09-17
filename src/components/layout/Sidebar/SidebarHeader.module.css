@@ -1,0 +1,22 @@
+.header {
+    margin-bottom: 1em;
+    padding: 20px;
+    background-color: #252532;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(15, 15, 20, 0.1);
+    box-shadow: 0 1px 4px 0 rgb(15, 15, 20, 0.1);
+}
+
+.header img {
+    max-width: 165px;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+
+.name {
+    font-size: 22px;
+    margin-bottom: 0.5em;
+}
+
+.short {
+    font-size: 16px;
+}

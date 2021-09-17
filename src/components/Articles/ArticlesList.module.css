@@ -1,0 +1,26 @@
+.articles__list {
+    list-style: none;
+    padding: 0;
+}
+
+.articles__list li {
+    padding: 10px;
+    border-bottom: 1px solid #8c8c8e;
+}
+
+.articles__list li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.articles__list li a:hover {
+    color: #519dff;
+}
+
+.articles__list li a svg {
+    margin-left: 10px;
+}

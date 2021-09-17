@@ -1,0 +1,18 @@
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 20px;
+    color: #519dff;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.highlighted {
+    color: #519dff;
+}

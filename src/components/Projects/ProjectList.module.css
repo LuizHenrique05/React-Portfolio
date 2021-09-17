@@ -1,0 +1,53 @@
+.list {
+    width: 80%;
+}
+
+.list li{
+    padding: 10px 0;
+    border-bottom: 1px solid #8c8c8e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list li div {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.list li div p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.list li div img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.list li div button {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.list li div button svg {
+    margin-left: 10px;
+}
+
+.list li div button:hover {
+    color: #519dff;
+}
+
+@media (max-width: 900px) {
+    .list {
+        width: 100%;
+    }
+}
