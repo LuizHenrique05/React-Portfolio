@@ -1,29 +1,9 @@
 import React from 'react'
 import SkillBox from '../Skills/SkillBox'
 
-import react from '../../img/skills/reactjs.png'
-import js from '../../img/skills/javascript.png'
-import html from '../../img/skills/html-5.png'
-import css from '../../img/skills/css-3.png'
-import stylus from '../../img/skills/stylus.png'
-
-import php from '../../img/skills/php.png'
-import nodejs from '../../img/skills/nodejs.png'
-
-import mysql from '../../img/skills/mysql.png'
-import mongodb from '../../img/skills/mongodb.png'
-
-import laravel from '../../img/skills/laravel.png'
-
-import github from '../../img/skills/github.png'
-import vscode from '../../img/skills/vscode.png'
-import phpstorm from '../../img/skills/phpstorm.png'
 import cloud9 from '../../img/skills/cloud9.png'
 import xampp from '../../img/skills/xampp.png'
-import slack from '../../img/skills/slack.png'
-import figma from '../../img/skills/figma.png'
 
-import wordpress from '../../img/skills/wordpress.png'
 import tray from '../../img/skills/tray.png'
 import fbits from '../../img/skills/fbits.png'
 import nuvemshop from '../../img/skills/nuvemshop.png'
@@ -35,59 +15,67 @@ export default () => {
     const frontend = [
     {
         title: 'ReactJS',
-        img: react
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
     },
     {
         title: 'JavaScript',
-        img: js
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+    },
+    {
+        title: 'jQuery',
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg'
     },
     {
         title: 'HTML5',
-        img: html
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
     }, 
     {
         title: 'CSS3',
-        img: css
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
     },
     {
         title: 'Stylus',
-        img: stylus
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stylus/stylus-original.svg'
     },
+    {
+        title: 'Sass',
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
+    }
     ]
     const backend = [
     {
         title: 'Laravel',
-        img: laravel
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg'
     },
     {
         title: 'PHP',
-        img: php
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg'
     }, 
     {
         title: 'NodeJS',
-        img: nodejs
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
     }]
     const database = [
     {
         title: 'MySQL',
-        img: mysql
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
     }, 
     {
         title: 'MongoDB',
-        img: mongodb
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
     }]
     const tools = [
     {
         title: 'Github',
-        img: github
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg'
     },
     {
         title: 'Visual Studio Code',
-        img: vscode
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'
     },
     {
         title: 'PHPStorm',
-        img: phpstorm
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg'
     },
     {
         title: 'AWS Cloud9',
@@ -99,33 +87,41 @@ export default () => {
     },
     {
         title: 'Slack',
-        img: slack
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg'
+    },
+    {
+        title: 'Filezilla',
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filezilla/filezilla-plain.svg'
+    },
+    {
+        title: 'Heroku',
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg'
     },
     {
         title: 'Figma',
-        img: figma
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
     }]
     const platforms = [
-        {
-            title: 'WordPress',
-            img: wordpress
-        },
-        {
-            title: 'Tray',
-            img: tray
-        },
-        {
-            title: 'Fbits',
-            img: fbits
-        },
-        {
-            title: 'NuvemShop',
-            img: nuvemshop
-        },
-        {
-            title: 'Loja Integrada',
-            img: lojaintegrada
-        }]
+    {
+        title: 'WordPress',
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg'
+    },
+    {
+        title: 'Tray',
+        img: tray
+    },
+    {
+        title: 'Fbits',
+        img: fbits
+    },
+    {
+        title: 'NuvemShop',
+        img: nuvemshop
+    },
+    {
+        title: 'Loja Integrada',
+        img: lojaintegrada
+    }]
 
     return (
         <div className={styles.skill}>

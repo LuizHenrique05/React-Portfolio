@@ -1,8 +1,8 @@
-import thumb1 from '../../img/projects/netflix_clone.png'
+import thumb1 from '../../img/projects/netflix-project.png'
 import thumb2 from '../../img/projects/mybrary.png'
-import thumb3 from '../../img/projects/my_game_lib.png'
-import thumb4 from '../../img/projects/hdc.png'
-import thumb5 from '../../img/projects/laravel.png'
+import thumb3 from '../../img/projects/laravel-project.png'
+import thumb4 from '../../img/projects/portfolio-project.png'
+import thumb5 from '../../img/projects/api-project.png'
 import thumb6 from '../../img/projects/angular.png'
 
 export default [
@@ -35,16 +35,16 @@ export default [
     },
     {
         id: 4,
-        name: 'Laravel Course  - HDC',
-        description: 'System for registration, participation and editing of events, login and registration.',
-        technology: ['Laravel', 'blade', 'XAMPP'],
-        github_link: 'https://github.com/LuizHenrique05/HDCEvents-curso',
+        name: 'Responsive portfolio website',
+        description: 'Responsive portfolio website made in HTML5 and CSS3.',
+        technology: ['HTML5', 'CSS3'],
+        github_link: 'https://luizhenrique05.github.io/html5-css3-portfolio-website/',
         heroku_link: '',
         thumb: thumb4
     },
     {
         id: 5,
-        name: 'Rest API - DogSystem',
+        name: 'Laravel Rest API',
         description: 'Basic REST API Project to manage dogs informations.',
         technology: ['Laravel'],
         github_link: 'https://github.com/LuizHenrique05/RESTFul-API-DogSystem',
